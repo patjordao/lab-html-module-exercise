@@ -1,0 +1,126 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 0;
+    padding: 0;
+    background-color: #C12127;
+}
+/* common */
+h1 {
+    font-size: 52px;
+    color: rgba(255,255,255,0.8);
+}
+button {
+    font-size: 16px;
+}
+.btn-primary{
+    border-radius: 20px;
+    border: none;
+    background: orange;
+    color: white;
+    padding: 10px 20px;
+}
+
+
+
+
+nav {
+    background-color: #C12127;
+    color: rgba(255,255,255,0.8);
+    width: 100%;
+    height: 40px;   
+}
+nav a {
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+    font-size: 16px;
+}
+.top-left {
+    float: left;
+    line-height: 40px;
+    margin-left: 40px;
+}
+  
+.top-links {
+    text-align: right;
+    padding: 0;
+    margin: 0 20px 0 0;
+}
+.top-links li {
+    list-style-type: none;
+    line-height: 40px;
+    display: inline-block;
+    margin: 0 10px;
+}
+header {
+    clear: both;
+    background: rgb(32, 101, 136);
+    height: 100vh;
+    overflow: hidden
+}
+header a {
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+}
+header p{
+    color: rgba(255,255,255,0.8);
+}
+header .header-top {
+    height: 60px;
+    display: inline-block;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+header .header-top .logo {
+    max-width: 8%;
+    margin: 15px 0 0 30px;
+    text-align: left;
+}
+header .header-top input {
+    background: rgb(31, 82, 111);
+    border: 1px solid rgb(47, 121, 163);
+    width: 60%;
+    box-sizing: content-box;
+    margin: 12px 0 0 30px;
+    vertical-align: top;
+    height: 40px;
+    color: lightgray;
+    padding: 0 20px;
+    font-size: small;
+}
+header .header-top ul {
+    padding: 0;
+    float: right;
+    margin: 0 30px;
+}
+header .header-top ul li {
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px 0 20px 10px;
+}
+header .header-top ul li a{
+    line-height: 30px;
+    font-size: medium;
+}
+header .header-top ul li .bear{
+    max-width: 30px;
+}
+header .header-img {
+    background: url('images/city-scape.svg');
+    background-size: cover;
+    height: calc(100% - 80px);
+}
+header .header-img .container{
+    margin: 0 auto;
+    width: 60%;
+    padding: 60px 20% 60px 0;
+}
+header .header-img .container p{
+    margin: 60px 0;
+}
+section .container {
+    margin: 0 auto;
+    max-width: 70%;
+}
